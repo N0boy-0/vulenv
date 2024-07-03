@@ -1,0 +1,88 @@
+body {
+    background-color: seashell;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #88c7c9;
+   overflow: hidden;
+}
+
+li a {
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+/*a visted*/
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*preference sub menu */
+.premenu{
+    background-color: black;
+    width: 100px;
+    height: 120px;
+    margin-left:720px;
+    display:none;
+}
+/*mouse hover on prefere*/
+.pref:hover .premenu{
+    display:block;
+}
+/*preference sub menu  theme buttons */
+.tbot{
+    background-color: black;
+    color:white;
+    padding:5px;
+    text-decoration: none;
+    text-decoration-line: none;
+    width: 100px;
+   
+}
+
+
+.dashboard_header{
+    background-color: aqua;
+    color:coral;
+    border-style: 5px outset red;
+    display: table;
+}
+
+
+.profile_text{
+
+    background-color: aqua;
+    color:coral;
+    border-style: 5px outset red;
+    display: table;
+    font-weight: 30px;
+    font-size: 30px;;
+    
+
+}
+
+
+.avatar{
+    width:200px;
+    height:200px;
+    float:center;
+    border-radius: 50%;
+    border:5px solid red;
+}
+/*
+//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+*/
+

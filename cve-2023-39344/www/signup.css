@@ -1,0 +1,63 @@
+/* change the style */
+body {
+    background-color: seashell;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88c7c9;
+}
+
+li a {
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: floralwhite
+}
+
+li a:active {
+    background-color: rgb(25, 158, 85);
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*
+//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+*/
+
+.subox {
+    background-color: #67ff000f;
+    border-radius: 40;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 50%;
+    margin-left: 20%;
+    border-style: outset;
+    border-width: 10px;
+
+
+}
+
+#sbm {
+    margin: 10px;
+}
+
+.footer {
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: fit-content;
+}

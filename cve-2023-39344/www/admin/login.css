@@ -1,0 +1,99 @@
+body {
+    background-color: seashell;
+    overflow: scroll;
+
+}
+
+.header {
+    color: white;
+    background-color: blue;
+    display: table;
+    margin-left: 600px;
+    margin-top: 10px;
+
+
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88c7c9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+
+.loginbox {
+    /* background-color: cyan;*/
+
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 50%;
+    margin-top: 150px;
+    margin-left: 300px;
+    position: absolute;
+    left: 20%;
+
+}
+
+
+#field1 {
+    background-color: rgba(0, 0, 0, 40%);
+    color: white;
+    width: 80%;
+    height: 80%;
+    margin-left: 35px;
+    font-weight: bolder;
+
+
+}
+
+legend {
+    background-color: rgba(0, 0, 0, 80%);
+    color: white;
+
+    margin: 100px;
+}
+
+.inputf {
+    margin: 10px;
+    width: 300px;
+
+}
+
+.buf {
+    margin: 10px;
+    width: 100px;
+
+}
+
+.footer {
+
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    height: fit-content;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+/* end of the line here */

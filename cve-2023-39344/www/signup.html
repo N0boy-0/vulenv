@@ -1,0 +1,90 @@
+<html lang="en-us">
+
+<head>
+	<title> signup to pipago </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<meta name="keywords"
+		content="social media,the best social media platform,chat with your friend ,easy social media,pipago">
+	<meta name="description" content="light weight secured sudent's social media!!!">
+	<meta name="author" content="black eagle team">
+	<link rel="stylesheet" href="signup.css">
+</head>
+<!-- body goes here -->
+
+<body>
+	<!--header-->
+	<header>
+		<!-- -navigation links-->
+		<nav>
+			<ul>
+				<li><a href="index.html">home page</a></li>
+				<li><a href="login.html">login </a></li>
+				<li><a href="mailto:firaolapp@gmail.com">contact us </a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<!-- content-->
+	<main>
+		<div class="subox">
+			<form action="signup.php" target="_self" method="post">
+
+				<label id="info">please fill the form carefully</label><br>
+				<label for="na">first name</label><br>
+				<input type="name" name="fname" id="na" autofocus required><br>
+				<label for="na">last name</label><br>
+				<input type="name" name="lname" id="na" required><br>
+				<label for="em">email</label><br>
+				<input type="email" name="email" id="em" required><br>
+				<label for="pw">password</label><br>
+				<input type="password" name="password" id="pw" pattern=".{8,}"
+					title="please atleast insert 8 characters" required><br>
+				<!--gender infos-->
+				<p id="plabel"> please select your gender</p>
+				<input type="radio" name="gender" value="male" id="ge" required>
+				<label for="ge">male</label><br>
+				<input type="radio" name="gender" value="female" id="ge" required>
+				<label for="ge">female</label><br>
+				<input type="radio" name="gender" value="other" id="ge" required>
+				<label for="ge">other</label><br>
+				<!--select the birthdate-->
+				<label>birthdate</label>
+				<input type="date" name="bdate" value="04/10/1999" required max="31/03/2022">
+				<!-- select the  education level -->
+				<p id="plabel"> provide your education level or department</p>
+				<select name="elevel" size="1">
+					<optgroup label="computing">
+						<option value="is" selected>information systems</option>
+						<option value="it">information technolgy</option>
+						<option value="cs">computer science</option>
+						<option value="se">software engineering</option>
+					</optgroup>
+					<option value="me">medical and health</option>
+					<option value="en">Engineering</option>
+					<option value="ns">natural science</option>
+					<option value="ss">social science</option>
+					<option value="other">other</option>
+					<option value="no">no education</option>
+				</select>
+				<!--city -->
+				<p id="plabel">please input your city !<br> you can edit this letter</p>
+				<input type="text" name="city" placeholder="city" required> <br>
+				<input type="submit" value="signup" id="sbm"> <br>
+				<!--end the form -->
+			</form>
+		</div>
+
+	</main>
+	<!--footer content-->
+	<footer>
+		<div class="footer">
+			<hr>
+			<hr>
+			<p1>&copy; 2022 author: black eagle team</p1>
+		</div>
+
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body {
+    background-color:seashell;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88c7c9;
+}
+
+li a {
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+/*a visted*/
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+/************************************************************************/
+
+.adminsetting{
+margin-left:10px;
+margin-top: 10px;
+padding-left:10px;
+padding-top: 10px;
+background-color:lightblue;
+width:40%;
+height:50%;
+border-radius: 20%;
+border-width: 5PX;
+border-color:green;
+border-style:outset;
+
+}
+
+.adminsetting1{
+    margin: 20px;
+    padding:30px;
+}
+
+/******************************************************/

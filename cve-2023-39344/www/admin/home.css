@@ -1,0 +1,160 @@
+body {
+    background-color:seashell;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #88c7c9;
+}
+
+li a {
+    display: block;
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: floralwhite;
+}
+
+/*a visted*/
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.addbox{
+
+    background-color:blueviolet;
+    width:50%;
+    height: 50%;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.adform{
+    background-color: bisque;
+    width:50%;
+    height:50%;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    padding-left:20px;
+    padding-top:20px;
+
+
+}
+
+.addbutton{
+    background-color:red;
+    width:100px;
+}
+
+
+.infos{
+    background-color:deepskyblue;
+    font-family: fantasy;
+    font-style: italic;
+    font-size:30px;
+    padding-left:10PX;
+    padding-top:10PX;
+    margin-top: 10PX;
+    text-decoration: dotted;
+    color:white;
+    border-radius: 10%;
+    border-width: 10px;
+    border-color:red;
+    border-style: double;
+}
+
+.isum{
+     display:table;
+     background-color: blueviolet;
+     font-family: fantasy;
+     font-style: italic;
+     font-size:30px;
+     padding-left:10PX;
+     padding-top:10PX;
+     margin-top: 10PX;
+     text-decoration: dotted;
+     color:white;
+     border-radius: 10%;
+     border-width: 10px;
+     border-color:red;
+     border-style: inset;
+}
+
+/********************************************************************************
+animation 
+************************************************************************************/
+@keyframes panime {
+    from {transform:rotate(30deg);}
+    to {transform:rotate(0deg);}
+}
+
+@keyframes textanime{
+    0%{opacity:0%;}
+    50%{opacity:50%;}
+    90%{opacity:90%;}
+    100%{opacity:100%;}
+}
+
+
+.pipaAnim{
+    position: absolute;
+    left:50%;
+    top:65%;
+    transform: scale(80%);
+    filter:grayscale(90%);
+    filter:saturate(90%);
+    z-index:0;
+}
+
+/*connector stick */
+.pipacon{
+    position: absolute;
+    left:51%;
+    top:65%;
+    transform: scale(90%);
+    filter:grayscale(90%);
+    filter:saturate(90%); 
+    z-index:1;
+    transform: rotate(0deg);
+    animation-name: panime;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-play-state: running;
+}
+
+/*pedscreen */
+
+.pedscreen{
+    transition: 0.7s;
+    font-style: italic;
+    font-size:x-large;
+    font-weight: bolder;
+    color:darkmagenta;
+    background-color: white;
+    opacity:0%;
+    animation-name: textanime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    animation-play-state: running;
+    position: absolute;
+    left:78%;
+    top:75%;
+    z-index: 2;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+*/
